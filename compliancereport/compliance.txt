@@ -1,0 +1,891 @@
+
+95 required production packages
+
+Production compliance by site:
+    77% ********    AMR-TS Calabasas
+    92% *********   AMR1 Portland
+    83% ********    AMR2-CL Irvine
+    98% **********  AMR2-SC Santa Clara
+    88% *********   AMR2a Austin
+    68% *******     AMR2a Chandler
+    93% *********   AMR2b Folsom
+   100% **********  AMR2d Fort Collins
+    97% **********  AMR2d Hudson
+    63% ******      AMR2e Argentina
+    71% *******     AMR2e Costa Rica
+    65% *******     AMR2e Guadalajara
+    40% ****        AMR2f Champaign
+    40% ****        AMR2f Chicago
+     2%             AMR2f Heron Cove
+    95% *********   ASEC Beijing
+    89% *********   ASEC Penang
+    97% **********  ASEC Shanghai
+    98% **********  EUEC Barcelona
+    98% **********  EUEC Braunschweig
+    98% **********  EUEC Gdansk
+    98% **********  EUEC Leixlip
+   100% **********  EUEC Moscow
+   100% **********  EUEC Nizhnyi
+   100% **********  EUEC Novosibirsk
+    98% **********  EUEC Shannon
+   100% **********  EUEC St Petersburg
+    98% **********  EUEC Swindon
+    98% **********  EUEC Tampere
+    98% **********  EUEC Toulouse
+    98% **********  EUEC Ulm
+    93% *********   I2EC Bangalore
+    89% *********   IMC
+    93% *********   ISEC Haifa
+
+AMR-TS Calabasas
+  Deploy  1k_mounts_patch 1.0
+  Deploy  4k_mounts_patch 1.0
+  Deploy  autofs_patch 1.1
+  Deploy  cama_init 1.0
+  Deploy  cfengine3 1.0
+  Deploy  clean_netbatch 2.1
+  Deploy  crash 2.3
+  Deploy  make_automap 2.1
+  Deploy  spnet 3.3-2
+  Deploy  tune_ext3fs 1.0
+  Deploy  uselm_agg 2.3-1.17
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade ad2maps 2.0 to 2.2 or newer
+  Upgrade autofs 2.1 to 2.2 or newer
+  Upgrade gns 2.3 to 2.4 or newer
+  Upgrade krb5_conf 2.1 to 2.3 or newer
+  Upgrade motd 2.1 to 2.3 or newer
+  Upgrade prefetch 2.3 to 1.4 or newer
+  Upgrade sema 6.0.5-1 to 6.0.8 or newer
+  Upgrade sendmail 2.3 to 2.4 or newer
+  Upgrade ypclient 2.2 to 2.3 or newer
+  Upgrade ypserver 2.1 to 2.2 or newer
+
+AMR1 Portland
+  Deploy  1k_mounts_patch 1.0
+  Deploy  4k_mounts_patch 1.0
+  Deploy  autofs 2.2
+  Deploy  autofs_patch 1.1
+  Deploy  ssh 7.2.1.99-2
+  Deploy  ssh_hostkeys 2.4
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade ad2maps 2.0 to 2.2 or newer
+  Upgrade ypserver 2.1 to 2.2 or newer
+
+AMR2-CL Irvine
+  Deploy  acroread_fix 2.0
+  Deploy  ad2maps 2.2
+  Deploy  automap 2.0
+  Deploy  cama_init 1.0
+  Deploy  cfengine3 1.0
+  Deploy  csd_xconnect 2.2
+  Deploy  csdd 2.2-3.5
+  Deploy  make_automap 2.1
+  Deploy  megacli 8.0-1.0
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade autofs 2.1 to 2.2 or newer
+  Upgrade krb5_conf 2.1 to 2.3 or newer
+  Upgrade prefetch 2.3 to 1.4 or newer
+  Upgrade sema 6.0.5-1 to 6.0.8 or newer
+  Upgrade ypclient 2.2 to 2.3 or newer
+  Upgrade ypserver 2.1 to 2.2 or newer
+
+AMR2-SC Santa Clara
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade ad2maps 2.0 to 2.2 or newer
+  Upgrade clean_tmp 1.4 to 2.5 or newer
+  Upgrade krb5_conf 2.2 to 2.3 or newer
+  Upgrade umap 1.0 to 2.1 or newer
+  Upgrade ypserver 2.1 to 2.2 or newer
+
+AMR2a Austin
+  Deploy  autofs 2.2
+  Deploy  rc 2.0
+  Deploy  root_ssh 2.3
+  Deploy  sudoers_global 2.2
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade mapadm 1.2 to 2.3 or newer
+  Upgrade motd 2.2 to 2.3 or newer
+  Upgrade samba_patches 1.0-3.0.36-0.13.18.1 to 2.2 or newer
+  Upgrade sema 6.0.5-1 to 6.0.8 or newer
+  Upgrade uselm_agg 1.3-1.17 to 2.3-1.17 or newer
+  Upgrade ypclient 2.2 to 2.3 or newer
+
+AMR2a Chandler
+  Deploy  autofs 2.2
+  Deploy  csd_xconnect 2.2
+  Deploy  hpn_ssh 4.1.1-2
+  Deploy  nscd 2.1
+  Deploy  nss 2.2
+  Deploy  nsswitch_conf 2.4
+  Deploy  osgot_links 2.3
+  Deploy  rc 2.0
+  Deploy  resolve 2.4
+  Deploy  root_ssh 2.3
+  Deploy  sendmail 2.4
+  Deploy  sudoers_global 2.2
+  Deploy  syslog 2.3
+  Deploy  ypclient 2.3
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade bigfix 8.2.1079.0-4 to 8.2.1079.0-5 or newer
+  Upgrade clean_netbatch 1.1 to 2.1 or newer
+  Upgrade clean_tmp 1.4 to 2.5 or newer
+  Upgrade crash 1.2 to 2.3 or newer
+  Upgrade csdd 1.1 to 2.2-3.5 or newer
+  Upgrade hputils 1.0 to 9.20-9.0-2.1 or newer
+  Upgrade mapadm 1.2 to 2.3 or newer
+  Upgrade motd 2.2 to 2.3 or newer
+  Upgrade nisbackup 1.0 to 2.0 or newer
+  Upgrade numabooster 1.2-1.1 to 2.2-1.1 or newer
+  Upgrade prefetch 2.3 to 1.4 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sema 6.0.5-1 to 6.0.8 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+  Upgrade uselm_agg 1.3-1.17 to 2.3-1.17 or newer
+
+AMR2b Folsom
+  Deploy  nisbackup 2.0
+  Deploy  rc 2.0
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade autofs 2.1 to 2.2 or newer
+  Upgrade bootman 1.1-2.1 to 2.2-2.1 or newer
+  Upgrade csdd 1.1 to 2.2-3.5 or newer
+  Upgrade krb5_conf 2.2 to 2.3 or newer
+  Upgrade motd 2.2 to 2.3 or newer
+  Upgrade root_ssh 2.2 to 2.3 or newer
+  Upgrade sendmail 2.3 to 2.4 or newer
+  Upgrade spnet 3.3-0 to 3.3-2 or newer
+  Upgrade ypclient 2.2 to 2.3 or newer
+
+AMR2d Hudson
+  Deploy  sendmail 2.4
+  Upgrade ad2maps 2.0 to 2.2 or newer
+  Upgrade ypserver 2.1 to 2.2 or newer
+
+AMR2e Argentina
+  Deploy  1k_mounts_patch 1.0
+  Deploy  4k_mounts_patch 1.0
+  Deploy  autofs 2.2
+  Deploy  autofs_patch 1.1
+  Deploy  cama_init 1.0
+  Deploy  csdd 2.2-3.5
+  Deploy  dhcp_patches 1.0
+  Deploy  ganglia 2.4-3.0.7
+  Deploy  hpn_ssh 4.1.1-2
+  Deploy  make_automap 2.1
+  Deploy  megacli 8.0-1.0
+  Deploy  nboi 2.1
+  Deploy  nisbackup 2.0
+  Deploy  nsswitch_conf 2.4
+  Deploy  osgot_links 2.3
+  Deploy  rc 2.0
+  Deploy  rcmdeol 2.1-1
+  Deploy  sendmail 2.4
+  Deploy  spnet 3.3-2
+  Deploy  syslog 2.3
+  Deploy  tune_ext3fs 1.0
+  Deploy  ypclient 2.3
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade acroread_fix 1.0 to 2.0 or newer
+  Upgrade ad2maps 1.0 to 2.2 or newer
+  Upgrade motd 2.1 to 2.3 or newer
+  Upgrade numabooster 1.2-1.1 to 2.2-1.1 or newer
+  Upgrade prefetch 2.3 to 1.4 or newer
+  Upgrade root_ssh 2.2 to 2.3 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sema 6.0.5-1 to 6.0.8 or newer
+  Upgrade ssh 7.2.1.90-3 to 7.2.1.99-2 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+  Upgrade uselm_agg 1.3-1.17 to 2.3-1.17 or newer
+  Upgrade ypserver 1.1 to 2.2 or newer
+
+AMR2e Costa Rica
+  Deploy  ad2maps 2.2
+  Deploy  cama_init 1.0
+  Deploy  csdd 2.2-3.5
+  Deploy  dhcp_patches 1.0
+  Deploy  hpn_ssh 4.1.1-2
+  Deploy  make_automap 2.1
+  Deploy  megacli 8.0-1.0
+  Deploy  nboi 2.1
+  Deploy  nisbackup 2.0
+  Deploy  nsswitch_conf 2.4
+  Deploy  osgot_links 2.3
+  Deploy  rc 2.0
+  Deploy  rcmdeol 2.1-1
+  Deploy  sendmail 2.4
+  Deploy  spnet 3.3-2
+  Deploy  syslog 2.3
+  Deploy  tune_ext3fs 1.0
+  Deploy  ypclient 2.3
+  Deploy  ypserver 2.2
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade acroread_fix 1.0 to 2.0 or newer
+  Upgrade motd 2.1 to 2.3 or newer
+  Upgrade numabooster 1.2-1.1 to 2.2-1.1 or newer
+  Upgrade prefetch 2.3 to 1.4 or newer
+  Upgrade root_ssh 2.2 to 2.3 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sema 6.0.5-1 to 6.0.8 or newer
+  Upgrade ssh 7.2.1.90-3 to 7.2.1.99-2 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+  Upgrade uselm_agg 1.3-1.17 to 2.3-1.17 or newer
+
+AMR2e Guadalajara
+  Deploy  1k_mounts_patch 1.0
+  Deploy  4k_mounts_patch 1.0
+  Deploy  autofs_patch 1.1
+  Deploy  cama_init 1.0
+  Deploy  csdd 2.2-3.5
+  Deploy  dhcp_patches 1.0
+  Deploy  hpn_ssh 4.1.1-2
+  Deploy  make_automap 2.1
+  Deploy  megacli 8.0-1.0
+  Deploy  nboi 2.1
+  Deploy  nisbackup 2.0
+  Deploy  nsswitch_conf 2.4
+  Deploy  osgot_links 2.3
+  Deploy  rc 2.0
+  Deploy  rcmdeol 2.1-1
+  Deploy  sendmail 2.4
+  Deploy  spnet 3.3-2
+  Deploy  syslog 2.3
+  Deploy  tune_ext3fs 1.0
+  Deploy  ypclient 2.3
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade acroread_fix 1.0 to 2.0 or newer
+  Upgrade ad2maps 1.0 to 2.2 or newer
+  Upgrade motd 2.1 to 2.3 or newer
+  Upgrade numabooster 1.2-1.1 to 2.2-1.1 or newer
+  Upgrade prefetch 2.3 to 1.4 or newer
+  Upgrade root_ssh 2.2 to 2.3 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sema 6.0.5-1 to 6.0.8 or newer
+  Upgrade ssh 7.2.1.90-3 to 7.2.1.99-2 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+  Upgrade uselm_agg 1.3-1.17 to 2.3-1.17 or newer
+  Upgrade ypserver 1.1 to 2.2 or newer
+
+AMR2f Champaign
+  Deploy  acroread_fix 2.0
+  Deploy  autofs 2.2
+  Deploy  cama_init 1.0
+  Deploy  clean_netbatch 2.1
+  Deploy  clean_tmp 2.5
+  Deploy  crash 2.3
+  Deploy  csd_xconnect 2.2
+  Deploy  csdd 2.2-3.5
+  Deploy  dhcp_patches 1.0
+  Deploy  dir_colors 2.0
+  Deploy  eclogin 2.4
+  Deploy  ganglia 2.4-3.0.7
+  Deploy  hputils 9.20-9.0-2.1
+  Deploy  kde_light 2.0
+  Deploy  kdump 2.4
+  Deploy  krb5_conf 2.3
+  Deploy  lxset_agfa_fonts 2.0-2003.03.19-32.2
+  Deploy  lxset_kdebase3_samba 3.5.1-69.76.22-2.0
+  Deploy  lxset_kdepim3 3.5.1-41.42-2.0
+  Deploy  lxset_mc 4.6.1-34.11-2.1
+  Deploy  lxset_tix 8.1.4-91.2-2.0
+  Deploy  lxset_yelp 2.14.0-20.24-1.0
+  Deploy  make_automap 2.1
+  Deploy  mapadm 2.3
+  Deploy  megacli 8.0-1.0
+  Deploy  motd 2.3
+  Deploy  nboi 2.1
+  Deploy  nodes_utils 3.0
+  Deploy  ntp 2.3
+  Deploy  numabooster 2.2-1.1
+  Deploy  osgot_links 2.3
+  Deploy  root_ssh 2.3
+  Deploy  sema 6.0.8
+  Deploy  skew 2.2
+  Deploy  spnet 3.3-2
+  Deploy  ssh_hostkeys 2.4
+  Deploy  syslog 2.3
+  Deploy  tune_ext3fs 1.0
+  Deploy  umap 2.1
+  Deploy  uselm_agg 2.3-1.17
+  Deploy  ypclient 2.3
+  Deploy  ypserver 2.2
+  Retire  chpasswd 1.1
+  Upgrade ad2maps 2.0 to 2.2 or newer
+  Upgrade locate 1.2 to 2.2 or newer
+  Upgrade net_tools 1.0 to 1.1 or newer
+  Upgrade nisbackup 1.0 to 2.0 or newer
+  Upgrade password_aging 1.0 to 2.0 or newer
+  Upgrade powersave 1.2 to 2.2 or newer
+  Upgrade prefetch 1.1 to 1.4 or newer
+  Upgrade resolve 1.3 to 2.4 or newer
+  Upgrade samba_patches 2.1 to 2.2 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sendmail 1.2 to 2.4 or newer
+  Upgrade shells 1.1 to 2.2 or newer
+  Upgrade suseconfig 1.0 to 2.0 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+  Upgrade vnc 1.1 to 2.2 or newer
+
+AMR2f Chicago
+  Deploy  acroread_fix 2.0
+  Deploy  autofs 2.2
+  Deploy  cama_init 1.0
+  Deploy  clean_netbatch 2.1
+  Deploy  clean_tmp 2.5
+  Deploy  crash 2.3
+  Deploy  csd_xconnect 2.2
+  Deploy  csdd 2.2-3.5
+  Deploy  dhcp_patches 1.0
+  Deploy  dir_colors 2.0
+  Deploy  eclogin 2.4
+  Deploy  ganglia 2.4-3.0.7
+  Deploy  hputils 9.20-9.0-2.1
+  Deploy  kde_light 2.0
+  Deploy  kdump 2.4
+  Deploy  krb5_conf 2.3
+  Deploy  lxset_agfa_fonts 2.0-2003.03.19-32.2
+  Deploy  lxset_kdebase3_samba 3.5.1-69.76.22-2.0
+  Deploy  lxset_kdepim3 3.5.1-41.42-2.0
+  Deploy  lxset_mc 4.6.1-34.11-2.1
+  Deploy  lxset_tix 8.1.4-91.2-2.0
+  Deploy  lxset_yelp 2.14.0-20.24-1.0
+  Deploy  make_automap 2.1
+  Deploy  mapadm 2.3
+  Deploy  megacli 8.0-1.0
+  Deploy  motd 2.3
+  Deploy  nboi 2.1
+  Deploy  nodes_utils 3.0
+  Deploy  ntp 2.3
+  Deploy  numabooster 2.2-1.1
+  Deploy  osgot_links 2.3
+  Deploy  root_ssh 2.3
+  Deploy  sema 6.0.8
+  Deploy  skew 2.2
+  Deploy  spnet 3.3-2
+  Deploy  ssh_hostkeys 2.4
+  Deploy  syslog 2.3
+  Deploy  tune_ext3fs 1.0
+  Deploy  umap 2.1
+  Deploy  uselm_agg 2.3-1.17
+  Deploy  ypserver 2.2
+  Retire  chpasswd 1.1
+  Retire  hpn-ssh 1.2-4.1.1
+  Upgrade ad2maps 2.0 to 2.2 or newer
+  Upgrade locate 1.2 to 2.2 or newer
+  Upgrade net_tools 1.0 to 1.1 or newer
+  Upgrade nisbackup 1.0 to 2.0 or newer
+  Upgrade password_aging 1.0 to 2.0 or newer
+  Upgrade powersave 1.2 to 2.2 or newer
+  Upgrade prefetch 1.1 to 1.4 or newer
+  Upgrade resolve 1.3 to 2.4 or newer
+  Upgrade samba_patches 2.1 to 2.2 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sendmail 1.2 to 2.4 or newer
+  Upgrade shells 1.1 to 2.2 or newer
+  Upgrade suseconfig 1.0 to 2.0 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+  Upgrade vnc 1.1 to 2.2 or newer
+  Upgrade ypclient 2.2 to 2.3 or newer
+
+AMR2f Columbia
+  Retire  chpasswd 1.1
+  Retire  hpn-ssh 1.4-4.1.1
+  Retire  linux.permissions 1.3
+  Upgrade ad2maps 2.0 to 2.2 or newer
+  Upgrade gns 2.3 to 2.4 or newer
+  Upgrade locate 1.2 to 2.2 or newer
+  Upgrade mapadm 1.2 to 2.3 or newer
+  Upgrade net_tools 1.0 to 1.1 or newer
+  Upgrade powersave 1.2 to 2.2 or newer
+  Upgrade prefetch 1.1 to 1.4 or newer
+  Upgrade resolve 1.3 to 2.4 or newer
+  Upgrade samba_patches 2.1 to 2.2 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade shells 1.1 to 2.2 or newer
+  Upgrade ssh 7.2.1.90-3 to 7.2.1.99-2 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+  Upgrade vnc 1.1 to 2.2 or newer
+
+AMR2f Heron Cove
+  Deploy  1k_mounts_patch 1.0
+  Deploy  4k_mounts_patch 1.0
+  Deploy  access_conf 3.0
+  Deploy  acroread_fix 2.0
+  Deploy  ad2maps 2.2
+  Deploy  autofs 2.2
+  Deploy  autofs_patch 1.1
+  Deploy  automap 2.0
+  Deploy  bind_utils 1.0
+  Deploy  cama_init 1.0
+  Deploy  clean_netbatch 2.1
+  Deploy  clean_tmp 2.5
+  Deploy  crash 2.3
+  Deploy  csd_xconnect 2.2
+  Deploy  csdd 2.2-3.5
+  Deploy  default_passwd 2.0
+  Deploy  dhcp_patches 1.0
+  Deploy  dir_colors 2.0
+  Deploy  disable_console_blanking 2.1
+  Deploy  disable_mods_security 2.0
+  Deploy  eclogin 2.4
+  Deploy  ftpusers 2.0
+  Deploy  ganglia 2.4-3.0.7
+  Deploy  gns 2.4
+  Deploy  hpn_ssh 4.1.1-2
+  Deploy  hputils 9.20-9.0-2.1
+  Deploy  idsm 6.1-2.2
+  Deploy  intel_rootCA 1.0
+  Deploy  issue 2.1
+  Deploy  kde_light 2.0
+  Deploy  kdump 2.4
+  Deploy  krb5_conf 2.3
+  Deploy  ktab_dir 1.0
+  Deploy  limits_conf 2.1
+  Deploy  linux_permissions 2.4
+  Deploy  locate 2.2
+  Deploy  login_defs 2.1
+  Deploy  lxset_agfa_fonts 2.0-2003.03.19-32.2
+  Deploy  lxset_kdebase3_samba 3.5.1-69.76.22-2.0
+  Deploy  lxset_kdepim3 3.5.1-41.42-2.0
+  Deploy  lxset_mc 4.6.1-34.11-2.1
+  Deploy  lxset_stap_bid915144 1.0
+  Deploy  lxset_tix 8.1.4-91.2-2.0
+  Deploy  lxset_yelp 2.14.0-20.24-1.0
+  Deploy  make_automap 2.1
+  Deploy  mapadm 2.3
+  Deploy  megacli 8.0-1.0
+  Deploy  motd 2.3
+  Deploy  nboi 2.1
+  Deploy  nisbackup 2.0
+  Deploy  nodes_utils 3.0
+  Deploy  nscd 2.1
+  Deploy  nss 2.2
+  Deploy  nsswitch_conf 2.4
+  Deploy  ntp 2.3
+  Deploy  numabooster 2.2-1.1
+  Deploy  osgot_links 2.3
+  Deploy  pacct_rotate 2.0
+  Deploy  password_aging 2.0
+  Deploy  prefetch 1.4
+  Deploy  procnoexec 1.0
+  Deploy  quiet_cron 1.0
+  Deploy  rc 2.0
+  Deploy  rcmdeol 2.1-1
+  Deploy  resolve 2.4
+  Deploy  root_password 2.1
+  Deploy  root_ssh 2.3
+  Deploy  sema 6.0.8
+  Deploy  sendmail 2.4
+  Deploy  shells 2.2
+  Deploy  skew 2.2
+  Deploy  spnet 3.3-2
+  Deploy  ssh 7.2.1.99-2
+  Deploy  ssh_hostkeys 2.4
+  Deploy  sudo 2.1
+  Deploy  sudoers_global 2.2
+  Deploy  suseconfig 2.0
+  Deploy  sysctl 2.5
+  Deploy  syslog 2.3
+  Deploy  syslog_hostname_mark 2.0
+  Deploy  tune_ext3fs 1.0
+  Deploy  umap 2.1
+  Deploy  uselm_agg 2.3-1.17
+  Deploy  vas_client 4.0.3-184-1
+  Deploy  vnc 2.2
+  Deploy  ypclient 2.3
+  Deploy  ypserver 2.2
+  Retire  linux.permissions 1.3
+  Upgrade bigfix 8.2.1079.0-4 to 8.2.1079.0-5 or newer
+  Upgrade powersave 1.2 to 2.2 or newer
+  Upgrade samba_patches 1.0-3.0.36-0.13.18.1 to 2.2 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+
+AMR2f Kitchener
+  Retire  linux.permissions 1.3
+  Upgrade ad2maps 2.0 to 2.2 or newer
+  Upgrade bigfix 8.2.1079.0-4 to 8.2.1079.0-5 or newer
+  Upgrade gns 2.3 to 2.4 or newer
+  Upgrade nisbackup 1.0 to 2.0 or newer
+  Upgrade powersave 1.2 to 2.2 or newer
+  Upgrade resolve 1.3 to 2.4 or newer
+  Upgrade samba_patches 2.1 to 2.2 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sendmail 1.2 to 2.4 or newer
+  Upgrade shells 1.1 to 2.2 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+
+AMR2f Raleigh
+  Retire  chpasswd 1.1
+  Retire  linux.permissions 1.3
+  Upgrade gns 2.3 to 2.4 or newer
+  Upgrade locate 1.2 to 2.2 or newer
+  Upgrade net_tools 1.0 to 1.1 or newer
+  Upgrade powersave 1.2 to 2.2 or newer
+  Upgrade prefetch 1.1 to 1.4 or newer
+  Upgrade resolve 1.3 to 2.4 or newer
+  Upgrade samba_patches 2.1 to 2.2 or newer
+  Upgrade securetty 2.1 to 2.2 or newer
+  Upgrade sendmail 1.2 to 2.4 or newer
+  Upgrade shells 1.1 to 2.2 or newer
+  Upgrade ssh 7.2.1.90-3 to 7.2.1.99-2 or newer
+  Upgrade sysstat 1.1 to 2.2 or newer
+  Upgrade udev_security 1.0 to 2.0 or newer
+  Upgrade vnc 1.1 to 2.2 or newer
+
+ASEC Beijing
+  Deploy  ad2maps 2.2
+  Deploy  csd_xconnect 2.2
+  Deploy  csdd 2.2-3.5
+  Deploy  make_automap 2.1
+  Deploy  spnet 3.3-2
+
+ASEC Penang
+  Deploy  make_automap 2.1
+  Deploy  nboi 2.1
+  Deploy  nisbackup 2.0
+  Deploy  rc 2.0
+  Deploy  sendmail 2.4
+  Deploy  ypclient 2.3
+  Deploy  ypserver 2.2
+  Retire  256_mounts_patch 1.0
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade autofs 2.1 to 2.2 or newer
+  Upgrade clean_netbatch 1.1 to 2.1 or newer
+  Upgrade clean_tmp 1.3 to 2.5 or newer
+  Upgrade ganglia 1.2-3.0.7 to 2.4-3.0.7 or newer
+  Upgrade gns 2.3 to 2.4 or newer
+  Upgrade umap 1.0 to 2.1 or newer
+
+ASEC Shanghai
+  Deploy  csd_xconnect 2.2
+  Deploy  csdd 2.2-3.5
+  Deploy  spnet 3.3-2
+  Upgrade access_conf 2.1 to 3.0 or newer
+
+EUEC Barcelona
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+EUEC Braunschweig
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+EUEC Gdansk
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+EUEC Leixlip
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+EUEC Shannon
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+EUEC Swindon
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+EUEC Tampere
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+EUEC Toulouse
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+EUEC Ulm
+  Deploy  procnoexec 1.0
+  Deploy  tune_ext3fs 1.0
+
+I2EC Bangalore
+  Deploy  ssh_hostkeys 2.4
+  Deploy  tune_ext3fs 1.0
+  Upgrade access_conf 2.1 to 3.0 or newer
+  Upgrade autofs 2.1 to 2.2 or newer
+  Upgrade prefetch 2.3 to 1.4 or newer
+  Upgrade sendmail 1.2 to 2.4 or newer
+  Upgrade ypclient 2.2 to 2.3 or newer
+
+IMC
+  Deploy  ad2maps 2.2
+  Deploy  csd_xconnect 2.2
+  Deploy  csdd 2.2-3.5
+  Deploy  make_automap 2.1
+  Deploy  mapadm 2.3
+  Deploy  nisbackup 2.0
+  Deploy  spnet 3.3-2
+  Deploy  umap 2.1
+  Deploy  ypclient 2.3
+  Deploy  ypserver 2.2
+
+ISEC Haifa
+  Deploy  access_conf 3.0
+  Deploy  sendmail 2.4
+  Deploy  ssh_hostkeys 2.4
+  Upgrade gns 2.3 to 2.4 or newer
+  Upgrade motd 2.2 to 2.3 or newer
+  Upgrade sema 6.0.5-2 to 6.0.8 or newer
+  Upgrade ssh 4.3-7.2.1.77 to 7.2.1.99-2 or newer
+  Upgrade vas_client 4.0.3-141-1 to 4.0.3-184-1 or newer
+  Upgrade ypclient 2.2 to 2.3 or newer
+
+IT Enterprise
+  Retire  linux.permissions 1.3
+  Upgrade bigfix 3.3-8.0.627.0 to 8.2.1079.0-5 or newer
+  Upgrade default_passwd 1.0 to 2.0 or newer
+  Upgrade dir_colors 1.0 to 2.0 or newer
+  Upgrade locate 1.2 to 2.2 or newer
+  Upgrade login_defs 1.0 to 2.1 or newer
+  Upgrade powersave 1.2 to 2.2 or newer
+  Upgrade sendmail 1.2 to 2.4 or newer
+
+SC storg
+  Upgrade ssh 4.4-7.2.1.77 to 7.2.1.99-2 or newer
+
+Sysman
+  Upgrade bigfix 8.2.1079.0-4 to 8.2.1079.0-5 or newer
+  Upgrade spnet 3.3-0 to 3.3-2 or newer
+  Upgrade ssh 7.2.1.90-3 to 7.2.1.99-2 or newer
+
+Package state problems:
+  Beta package atop 2.0 still needs 1 region deployment.
+  Beta package codeine 0.1.554-1 still needs 3 region deployments.
+  Beta package crypt-fs 1.3 still needs 3 region deployments.
+  Beta package hp_ht 1.0 still needs 1 region deployment.
+  Beta package license 1.2.1 still needs 3 region deployments.
+  Beta package mknetgroups 1.0 still needs 1 test comment.
+  Beta package rpcbind 1.0 still needs 3 region deployments.
+  Development package apacheinv 2.0 still needs 1 region test and 1 test comment.
+  Development package atop 2.0-2.0.2-1 still needs 3 region tests and 2 test comments.
+  Development package automap 2.1 still needs 3 region tests and 3 test comments.
+  Development package bind_utils 1.1 still needs 3 test comments.
+  Development package blcr 0.8.4-1 still needs 3 region tests and 3 test comments.
+  Development package blcr 0.8.4.1 still needs 3 test comments.
+  Development package blcr 0.8.5.1 still needs 2 region tests and 3 test comments.
+  Development package ccc_ml350 1.0 still needs 2 region tests and 3 test comments.
+  Development package cdisd 1.0 still needs 1 region test and 2 test comments.
+  Development package cdns 1.0 still needs 3 test comments.
+  Development package cfengine3 1.1 still needs 3 region tests and 3 test comments.
+  Development package cfengine3_upgrade 3.4 still needs 1 region test and 3 test comments.
+  Development package cfengine3_upgrade 3.5 still needs 3 region tests and 3 test comments.
+  Development package cfops_analytics 1.0 still needs 3 region tests and 3 test comments.
+  Development package clean_netbatch 1.2-1.4.1 still needs 2 region tests and 3 test comments.
+  Development package clearcase 2.3 still needs 3 region tests and 1 test comment.
+  Development package codeine 0.1.439-1 still needs 3 region tests and 2 test comments.
+  Development package codeine 1.0.703-1 still needs 2 region tests and 3 test comments.
+  Development package codeine 1.1.644-1 still needs 3 region tests and 3 test comments.
+  Development package codeine_undo 0.1.554-1 still needs 2 region tests and 2 test comments.
+  Development package crypt-fs 1.1 still needs 3 test comments.
+  Development package crypt-fs 1.2 still needs 1 region test and 3 test comments.
+  Development package crypt_fs 2.3 still needs 2 region tests and 3 test comments.
+  Development package csdd 2.2-3.6 still needs 3 region tests and 3 test comments.
+  Development package dhcp_patches 1.1 still needs 1 test comment.
+  Development package dm_crypt 2.0 still needs 2 region tests and 2 test comments.
+  Development package dns_cache 1.1 still needs 3 region tests and 3 test comments.
+  Development package dns_cache 2.0 still needs 3 region tests and 3 test comments.
+  Development package dns_cache 2.1 still needs 2 test comments.
+  Development package dnsrollup 2.0 still needs 2 region tests and 3 test comments.
+  Development package eclogin 1.4 still needs 3 region tests and 3 test comments.
+  Development package ganglia r407-2.5 still needs 1 region test and 3 test comments.
+  Development package hpn-ssh 1.6-4.1.1 still needs 2 region tests and 3 test comments.
+  Development package hpn_ssh 4.1.1-2a still needs 1 region test and 3 test comments.
+  Development package hpn_ssh 4.1.1-3 still needs 1 test comment.
+  Development package hwsum 2.0 still needs 1 region test and 2 test comments.
+  Development package io_pfactor 1.1 still needs 2 region tests and 3 test comments.
+  Development package io_pfactor 1.2 still needs 3 region tests and 3 test comments.
+  Development package io_pfactor 1.3 still needs 3 region tests and 3 test comments.
+  Development package io_pfactor 1.4 still needs 2 region tests and 3 test comments.
+  Development package io_pfactor 1.5 still needs 1 region test and 3 test comments.
+  Development package ixgbe 1.0 still needs 1 region test and 2 test comments.
+  Development package keytab_server 1.1 still needs 3 test comments.
+  Development package konsole 1.0 still needs 2 region tests and 3 test comments.
+  Development package krb5.conf 1.1 still needs 3 region tests and 3 test comments.
+  Development package krb5.conf 2.1 still needs 3 region tests and 3 test comments.
+  Development package kwin 1.0 still needs 3 region tests and 3 test comments.
+  Development package leaf 1.0 still needs 1 region test and 2 test comments.
+  Development package license 1.3 still needs 3 test comments.
+  Development package license 1.4 still needs 2 region tests and 3 test comments.
+  Development package limits_conf 2.2 still needs 3 test comments.
+  Development package lxset_indent 2.2.10-1.21-1.0 still needs 2 region tests and 3 test comments.
+  Development package lxset_libelf 0.8.12-1.1.52-1.0 still needs 2 region tests and 3 test comments.
+  Development package make_automap 2.2 still needs 2 test comments.
+  Development package mknetgroups 1.1 still needs 2 test comments.
+  Development package mounts 1.0 still needs 1 test comment.
+  Development package nblocker 1.0 still needs 3 region tests and 3 test comments.
+  Development package nboi 2.2 still needs 2 region tests and 3 test comments.
+  Development package nbu_client 2.0 still needs 2 region tests and 3 test comments.
+  Development package netbatch_init 1.0 still needs 1 region test and 3 test comments.
+  Development package netmeter 2.4 still needs 1 region test and 2 test comments.
+  Development package nodes_utils 3.1 still needs 2 region tests and 3 test comments.
+  Development package nscd 2.2 still needs 1 region test and 2 test comments.
+  Development package nsswitch_conf 2.5 still needs 3 region tests and 3 test comments.
+  Development package odc 1.0 still needs 3 region tests and 3 test comments.
+  Development package odc 2.0 still needs 1 region test and 3 test comments.
+  Development package printers 2.3 still needs 2 region tests and 2 test comments.
+  Development package procnoexec 2.0 still needs 3 test comments.
+  Development package root_password 2.3 still needs 3 region tests and 3 test comments.
+  Development package rpcbind 1.1 still needs 1 region test and 3 test comments.
+  Development package run_config 1.0 still needs 2 test comments.
+  Development package sema 6.0.6 still needs 3 region tests and 3 test comments.
+  Development package sema 6.0.8-1 still needs 1 test comment.
+  Development package serial_over_lan 1.0 still needs 2 region tests and 3 test comments.
+  Development package spnet 3.3-1 still needs 2 region tests and 3 test comments.
+  Development package ssh_hostkeys 2.5 still needs 1 region test and 3 test comments.
+  Development package stunnel 1.0 still needs 2 region tests and 3 test comments.
+  Development package stunnel 1.1 still needs 3 test comments.
+  Development package stunnel 2.1 still needs 2 region tests and 3 test comments.
+  Development package stunnel_dyn 2.1 still needs 2 region tests and 3 test comments.
+  Development package sudoers_global 2.3 still needs 1 region test and 3 test comments.
+  Development package sysctl 2.4 still needs 3 region tests and 3 test comments.
+  Development package sysstat 2.3 still needs 3 region tests and 3 test comments.
+  Development package tmp_encryption 1.0 still needs 2 region tests and 3 test comments.
+  Development package tune_ext3fs 2.0 still needs 1 region test and 2 test comments.
+  Development package usrlocal 2.0 still needs 1 region test.
+  Development package util_linux 1.0 still needs 2 region tests and 3 test comments.
+  Development package vas_client 4.0.3-184-2 still needs 1 test comment.
+  Development package vasproxy_utils 1.0 still needs 2 test comments.
+  Development package veloce_driver 1.0-0 still needs 2 region tests and 3 test comments.
+  Development package vmp 1.0 still needs 3 region tests and 3 test comments.
+  Development package ypclient 2.4 still needs 2 test comments.
+  EOL package 256_mounts_patch 1.0 is still in use by 1 site: ASEC Penang.
+  EOL package access_conf 2.1 is still in use by 13 sites: AMR-TS Calabasas, AMR1 Portland, AMR2-CL Irvine, AMR2-SC Santa Clara, AMR2a Austin, AMR2a Chandler, AMR2b Folsom, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara, ASEC Penang, ASEC Shanghai, I2EC Bangalore.
+  EOL package acroread_fix 1.0 is still in use by 3 sites: AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara.
+  EOL package ad2maps 1.0 is still in use by 2 sites: AMR2e Argentina, AMR2e Guadalajara.
+  EOL package ad2maps 2.0 is still in use by 8 sites: AMR-TS Calabasas, AMR1 Portland, AMR2-SC Santa Clara, AMR2d Hudson, AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Kitchener.
+  EOL package autofs 2.1 is still in use by 5 sites: AMR-TS Calabasas, AMR2-CL Irvine, AMR2b Folsom, ASEC Penang, I2EC Bangalore.
+  EOL package bigfix 3.3-8.0.627.0 is still in use by 1 site: IT Enterprise.
+  EOL package bigfix 8.2.1079.0-4 is still in use by 4 sites: AMR2a Chandler, AMR2f Heron Cove, AMR2f Kitchener, Sysman.
+  EOL package bootman 1.1-2.1 is still in use by 1 site: AMR2b Folsom.
+  EOL package chpasswd 1.1 is still in use by 4 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Raleigh.
+  EOL package clean_netbatch 1.1 is still in use by 2 sites: AMR2a Chandler, ASEC Penang.
+  EOL package clean_tmp 1.3 is still in use by 1 site: ASEC Penang.
+  EOL package clean_tmp 1.4 is still in use by 2 sites: AMR2-SC Santa Clara, AMR2a Chandler.
+  EOL package crash 1.2 is still in use by 1 site: AMR2a Chandler.
+  EOL package csdd 1.1 is still in use by 2 sites: AMR2a Chandler, AMR2b Folsom.
+  EOL package default_passwd 1.0 is still in use by 1 site: IT Enterprise.
+  EOL package dir_colors 1.0 is still in use by 1 site: IT Enterprise.
+  EOL package g2ng 1.2 is still in use by 1 site: AMR2-CL Irvine.
+  EOL package ganglia 1.2-3.0.7 is still in use by 1 site: ASEC Penang.
+  EOL package gns 2.3 is still in use by 6 sites: AMR-TS Calabasas, AMR2f Columbia, AMR2f Kitchener, AMR2f Raleigh, ASEC Penang, ISEC Haifa.
+  EOL package hpn-ssh 1.2-4.1.1 is still in use by 1 site: AMR2f Chicago.
+  EOL package hpn-ssh 1.4-4.1.1 is still in use by 1 site: AMR2f Columbia.
+  EOL package hputils 1.0 is still in use by 1 site: AMR2a Chandler.
+  EOL package krb5_conf 2.1 is still in use by 3 sites: AMR-TS Calabasas, AMR2-CL Irvine, AMR2b Folsom.
+  EOL package krb5_conf 2.2 is still in use by 2 sites: AMR2-SC Santa Clara, AMR2b Folsom.
+  EOL package linux.permissions 1.3 is still in use by 5 sites: AMR2f Columbia, AMR2f Heron Cove, AMR2f Kitchener, AMR2f Raleigh, IT Enterprise.
+  EOL package locate 1.2 is still in use by 5 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Raleigh, IT Enterprise.
+  EOL package login_defs 1.0 is still in use by 1 site: IT Enterprise.
+  EOL package mapadm 1.2 is still in use by 3 sites: AMR2a Austin, AMR2a Chandler, AMR2f Columbia.
+  EOL package motd 2.1 is still in use by 5 sites: AMR-TS Calabasas, AMR2b Folsom, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara.
+  EOL package motd 2.2 is still in use by 4 sites: AMR2a Austin, AMR2a Chandler, AMR2b Folsom, ISEC Haifa.
+  EOL package net_tools 1.0 is still in use by 4 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Raleigh.
+  EOL package nisbackup 1.0 is still in use by 4 sites: AMR2a Chandler, AMR2f Champaign, AMR2f Chicago, AMR2f Kitchener.
+  EOL package numabooster 1.2-1.1 is still in use by 4 sites: AMR2a Chandler, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara.
+  EOL package password_aging 1.0 is still in use by 2 sites: AMR2f Champaign, AMR2f Chicago.
+  EOL package powersave 1.2 is still in use by 7 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Heron Cove, AMR2f Kitchener, AMR2f Raleigh, IT Enterprise.
+  EOL package prefetch 1.1 is still in use by 4 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Raleigh.
+  EOL package prefetch 2.3 is still in use by 7 sites: AMR-TS Calabasas, AMR2-CL Irvine, AMR2a Chandler, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara, I2EC Bangalore.
+  EOL package resolve 1.3 is still in use by 5 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Kitchener, AMR2f Raleigh.
+  EOL package root_ssh 2.2 is still in use by 4 sites: AMR2b Folsom, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara.
+  EOL package samba_patches 1.0-3.0.36-0.13.18.1 is still in use by 2 sites: AMR2a Austin, AMR2f Heron Cove.
+  EOL package samba_patches 2.1 is still in use by 6 sites: AMR2a Austin, AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Kitchener, AMR2f Raleigh.
+  EOL package securetty 2.1 is still in use by 10 sites: AMR2a Chandler, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara, AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Heron Cove, AMR2f Kitchener, AMR2f Raleigh.
+  EOL package sema 6.0.5-1 is still in use by 7 sites: AMR-TS Calabasas, AMR2-CL Irvine, AMR2a Austin, AMR2a Chandler, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara.
+  EOL package sema 6.0.5-2 is still in use by 1 site: ISEC Haifa.
+  EOL package sendmail 1.2 is still in use by 6 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Kitchener, AMR2f Raleigh, I2EC Bangalore, IT Enterprise.
+  EOL package sendmail 2.3 is still in use by 2 sites: AMR-TS Calabasas, AMR2b Folsom.
+  EOL package shells 1.1 is still in use by 5 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Kitchener, AMR2f Raleigh.
+  EOL package spnet 3.3-0 is still in use by 2 sites: AMR2b Folsom, Sysman.
+  EOL package ssh 4.3-7.2.1.77 is still in use by 1 site: ISEC Haifa.
+  EOL package ssh 4.4-7.2.1.77 is still in use by 1 site: SC storg.
+  EOL package ssh 7.2.1.90-3 is still in use by 7 sites: AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara, AMR2f Columbia, AMR2f Raleigh, SC storg, Sysman.
+  EOL package suseconfig 1.0 is still in use by 2 sites: AMR2f Champaign, AMR2f Chicago.
+  EOL package sysman 2.15 is still in use by 1 site: SC storg.
+  EOL package sysman 2.16 is still in use by 3 sites: AMR2a Chandler, AMR2f Columbia, AMR2f Heron Cove.
+  EOL package sysstat 1.1 is still in use by 10 sites: AMR2a Chandler, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara, AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Heron Cove, AMR2f Kitchener, AMR2f Raleigh.
+  EOL package udev_security 1.0 is still in use by 10 sites: AMR2a Chandler, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara, AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Heron Cove, AMR2f Kitchener, AMR2f Raleigh.
+  EOL package umap 1.0 is still in use by 2 sites: AMR2-SC Santa Clara, ASEC Penang.
+  EOL package uselm_agg 1.3-1.17 is still in use by 5 sites: AMR2a Austin, AMR2a Chandler, AMR2e Argentina, AMR2e Costa Rica, AMR2e Guadalajara.
+  EOL package vas_client 4.0.3-141-1 is still in use by 1 site: ISEC Haifa.
+  EOL package vnc 1.1 is still in use by 4 sites: AMR2f Champaign, AMR2f Chicago, AMR2f Columbia, AMR2f Raleigh.
+  EOL package ypclient 2.2 is still in use by 7 sites: AMR-TS Calabasas, AMR2-CL Irvine, AMR2a Austin, AMR2b Folsom, AMR2f Chicago, I2EC Bangalore, ISEC Haifa.
+  EOL package ypserver 1.1 is still in use by 2 sites: AMR2e Argentina, AMR2e Guadalajara.
+  EOL package ypserver 2.1 is still in use by 5 sites: AMR-TS Calabasas, AMR1 Portland, AMR2-CL Irvine, AMR2-SC Santa Clara, AMR2d Hudson.
+  No sites are using EOL package ad2maps 2.1.
+  No sites are using EOL package autofs_patch 1.0.
+  No sites are using EOL package clean_tmp 2.4.
+  No sites are using EOL package eclogin 2.3.
+  No sites are using EOL package fontcache 2.0.
+  No sites are using EOL package idsm 1.1-6.0.
+  No sites are using EOL package kde-light 1.0.
+  No sites are using EOL package kdump 1.4.
+  No sites are using EOL package lxset_mc 1.0-4.6.1-34.11.
+  No sites are using EOL package lxset_tix 1.0-8.1.4-91.2.
+  No sites are using EOL package make_automap 2.0.
+  No sites are using EOL package nfs_krb 1.0.
+  No sites are using EOL package pacct_rotate 1.0.
+  No sites are using EOL package root_password 2.0.
+  No sites are using EOL package sema 6.0.7.
+  No sites are using EOL package sendmail 2.3-1.
+  No sites are using EOL package ssh 4.5-7.2.1.77.
+  No sites are using EOL package ssh 5.8-6.1.2.1.
+  No sites are using EOL package ssh 7.2.1.90-2.
+  No sites are using EOL package vas_client 3.5.1-20-6.3.
+  No sites are using EOL package vas_client 3.5.1-20-6.4.
+  No sites are using EOL package vas_client 4.0.3-164-1.
+  No sites are using EOL package vas_client 4.0.3-41-1.
+  No sites are using EOL package vas_client 4.0.3-41-2.
+  No sites are using EOL package vas_client 4.0.3-91-1.
+  No sites are using EOL package vas_client 4.0.3-91-1.1.
+  No sites are using EOL package vas_client 5.2-3.5.1-20.
+  No sites are using EOL package vas_client 5.4-3.5.1-20.
+  Package blcr 0.8.4-1 and 0.8.5.1 are both Development. Fix one of them.
+  Package blcr 0.8.4.1 and 0.8.5.1 are both Development. Fix one of them.
+  Package cfengine3_upgrade 3.4 and 3.5 are both Development. Fix one of them.
+  Package codeine 0.1.439-1 and 1.1.644-1 are both Development. Fix one of them.
+  Package codeine 1.0.703-1 and 1.1.644-1 are both Development. Fix one of them.
+  Package crypt-fs 1.1 and 1.2 are both Development. Fix one of them.
+  Package dns_cache 1.1 and 2.1 are both Development. Fix one of them.
+  Package dns_cache 2.0 and 2.1 are both Development. Fix one of them.
+  Package eclogin 1.4 and 2.5 are both Development. Fix one of them.
+  Package g2ng 2.2 and 2.3 are both Production. Fix one of them.
+  Package hpn_ssh 4.1.1-2a and 4.1.1-3 are both Development. Fix one of them.
+  Package io_pfactor 1.1 and 1.5 are both Development. Fix one of them.
+  Package io_pfactor 1.2 and 1.5 are both Development. Fix one of them.
+  Package io_pfactor 1.3 and 1.5 are both Development. Fix one of them.
+  Package io_pfactor 1.4 and 1.5 are both Development. Fix one of them.
+  Package krb5.conf 1.1 and 2.1 are both Development. Fix one of them.
+  Package kvm_kmod 1.0-2.6.30.1_12ww39 and 1.0-2.6.30.1_12ww46 are both Testing. Fix one of them.
+  Package license 1.3 and 1.4 are both Development. Fix one of them.
+  Package nfs_krb 2.0 and 2.1 are both Production. Fix one of them.
+  Package odc 1.0 and 2.0 are both Development. Fix one of them.
+  Package root_password 2.2 and 2.3 are both Development. Fix one of them.
+  Package sema 6.0.6 and 6.0.8-1 are both Development. Fix one of them.
+  Package stunnel 1.0 and 2.1 are both Development. Fix one of them.
+  Package stunnel 1.1 and 2.1 are both Development. Fix one of them.
+  Package sysman 2.17 and 2.19 are both Production. Fix one of them.
+  Production package sudoers_global 2.2 should not be Production. It still needs 3 test comments.
+  Promote Beta package ad2maps 2.3 to Production. It has 4 region deployments and has 3 test comments.
+  Promote Beta package sendmail 2.5 to Production. It has 4 region deployments and has 4 test comments.
+  Promote Beta package sysman 2.18 to Production. It has 5 region deployments and has 3 test comments.
+  Promote Development package autofs_patch 1.2 to Beta. It has 4 regions testing and has 3 test comments.
+  Promote Development package bigfix 8.2.1079.0-6 to Beta. It has 4 regions testing and has 3 test comments.
+  Promote Development package eclogin 2.5 to Beta. It has 4 regions testing and has 3 test comments.
+  Promote Development package krb5_conf 2.4 to Beta. It has 4 regions testing and has 3 test comments.
+  Promote Development package ntp 2.4 to Beta. It has 4 regions testing and has 4 test comments.
+  Promote Development package resolve 2.5 to Beta. It has 5 regions testing and has 3 test comments.
+  Promote Development package root_password 2.2 to Beta. It has 3 regions testing and has 3 test comments.
+  Promote Development package samba_patches 2.3 to Beta. It has 4 regions testing and has 3 test comments.
+  Promote Development package skew 2.3 to Beta. It has 4 regions testing and has 3 test comments.
+  Promote Development package vmwaretools 2.2 to Beta. It has 4 regions testing and has 3 test comments.
